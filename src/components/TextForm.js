@@ -53,7 +53,7 @@ export default function TextForm(props) {
             rows="8"
           ></textarea>
         </div>
-        <button className="btn btn-primary mx-1" onClick={() => {
+        <button className="btn btn-primary mx-1 my-1" onClick={() => {
           if (text.trim().length === 0) {
             props.showAlert("Enter the text to convert into UpperCase", "warning");
           } else {
@@ -62,7 +62,7 @@ export default function TextForm(props) {
         }}>
           Convert to Uppercase
         </button>
-        <button className="btn btn-primary mx-1" onClick={() => {
+        <button className="btn btn-primary mx-1 my-1" onClick={() => {
           if (text.trim().length === 0) {
             props.showAlert("Enter the text to convert into LowerCase", "warning");
           } else {
@@ -71,7 +71,7 @@ export default function TextForm(props) {
         }}>
           Convert to LowerCase
         </button>
-        <button className="btn btn-primary mx-1" onClick={() => {
+        <button className="btn btn-primary mx-1 my-1" onClick={() => {
           if (text.trim().length === 0) {
             props.showAlert("There is no text to clear", "warning");
           } else {
@@ -80,7 +80,7 @@ export default function TextForm(props) {
         }}>
           Clear Text
         </button>
-        <button className="btn btn-primary mx-1" onClick={() => {
+        <button className="btn btn-primary mx-1 my-1" onClick={() => {
           if (text.trim().length === 0) {
             props.showAlert("Enter the text to Copy", "warning");
           } else {
@@ -89,7 +89,7 @@ export default function TextForm(props) {
         }}>
           Copy Text
         </button>
-        <button className="btn btn-primary mx-1" onClick={() => {
+        <button className="btn btn-primary mx-1 my-1" onClick={() => {
           if (text.trim().length === 0) {
             props.showAlert("Enter the text and if that text contains any extraspaces then I will remove extra spaces", "warning");
           } else {
