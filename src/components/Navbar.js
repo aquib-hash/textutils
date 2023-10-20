@@ -15,9 +15,15 @@ export default function Navbar(props) {
                         <li className="nav-item">
                             <a className="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
+<<<<<<< HEAD
                       {/*  <li className="nav-item">
                             <a className="nav-link" href="#">{props.AboutText}</a>
     </li> */}
+=======
+{/*   <li className="nav-item">
+                            <a className="nav-link" href="#">{props.AboutText}</a>
+                        </li> */}
+>>>>>>> 536e5062668d1e4e6f8c4d67d72566de578b9709
                     </ul>
                     {/* Commented out search form */}
                     {/* <form className="d-flex" role="search">
